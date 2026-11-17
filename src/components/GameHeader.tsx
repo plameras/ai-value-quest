@@ -1,7 +1,7 @@
 export function GameHeader() {
   return (
     <header className="game-header">
-      <a className="brand" href="/" aria-label="AI Value Quest home">
+      <a className="brand" href={import.meta.env.BASE_URL} aria-label="AI Value Quest home">
         <span className="brand__mark" aria-hidden="true">VQ</span>
         <span>AI VALUE QUEST</span>
       </a>
