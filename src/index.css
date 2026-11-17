@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #f4f3ef;
+  background: #111310;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --color-bg: #111310;
+  --color-panel: #1a1d19;
+  --color-panel-raised: #20231f;
+  --color-line: #343832;
+  --color-text: #f4f3ef;
+  --color-muted: #b7bbb1;
+  --color-dim: #92978d;
+  --color-yellow: #f5dc45;
+  --color-teal: #54d6c6;
+  --color-purple: #c6a4ff;
+  --color-amber: #ffc96a;
+  --color-shock: #ff8765;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--color-yellow);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #111310;
+  background: var(--color-yellow);
+}
+
+#root {
+  min-height: 100vh;
+}
